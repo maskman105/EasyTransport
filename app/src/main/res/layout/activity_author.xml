@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="706dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/details_bg">
+
+    <!-- EditText for Route -->
+    <EditText
+        android:id="@+id/routeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:hint="Enter Route"
+        android:inputType="text" />
+
+    <!-- EditText for Bus Name -->
+    <EditText
+        android:id="@+id/busNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Bus Name"
+        android:inputType="text" />
+
+    <!-- EditText for Remaining Tickets -->
+    <EditText
+        android:id="@+id/remainingTicketsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Remaining Tickets"
+        android:inputType="number" />
+
+    <!-- EditText for Password -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <!-- OK Button -->
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_gravity="center"
+        android:padding="8dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="391dp"
+        android:layout_height="322dp"
+        app:srcCompat="@drawable/root" />
+</LinearLayout>
